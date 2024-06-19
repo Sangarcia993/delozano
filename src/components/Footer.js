@@ -17,7 +17,7 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>Social Media</h2>
             <Link to='https://www.instagram.com/de_lo_zano/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
+           
           </div>
         </div>
       </div>

@@ -22,8 +22,13 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
-  font-size: 80px;
+
   height: 300px;
+}
+
+.services h1 {
+  color: #ffffff;
+  width: 100%;
 }
 
 .products {
@@ -33,8 +38,13 @@
   background-size: cover;
   height: 200px;
   color: #ffffff;
-  font-size: 80px;
+
   
+}
+
+.products h1 {
+  color: #ffffff;
+  width: 100%;
 }
 
 .sign-up {
