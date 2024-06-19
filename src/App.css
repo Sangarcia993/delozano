@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.services {
+  background-image: url('../public/de_lo_zano/2024-06-14_20-45-05_UTC_1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  height: 300px;
+}
+
+.products {
+  background-image: url('../public/de_lo_zano/2024-06-10_22-23-19_UTC_2.jpg');
+;
+  background-position: left;
+  background-size: cover;
+  height: 200px;
+  color: #fff;
+  font-size: 100px;
+  
+}
+
+.sign-up {
+  background-image: url('/images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap");
+
+.App {
+  padding: 10px;
+}
+
+.carousel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.carousel img {
+  width: 100%; /* Adjust the width to fill the container */
+  height: auto; /* Adjust the height to maintain aspect ratio */
+  object-fit: cover; /* Cover the container without distorting the image */
+}
+
+.carousel-images {
+  position: relative;
+  border-radius: 10px;
+  height: 400px;
+  width: 300px;
+  max-width: 800px;
+  margin: auto;
+  overflow: hidden;
+}
+.carousel-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+  border: #ff00008e solid 2px;
+}
+.slide_direction {
+  display: flex;
+  justify-content: space-between;
+}
+.left{
+  background-color: #ff000075;
+  color: #fff;
+  padding: 10px 8px 8px 13px;
+  margin: 0 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 10px;
+  height: 25px;
+  width: 25px;
+
+}
+
+.right {
+  background-color: #ff000075;
+  color: #fff;
+  padding: 10px 8px 8px 13px;
+  margin: 0 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 10px;
+  height: 25px;
+  width: 25px;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}
+.carousel-indicator {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.dot {
+  background-color: #333;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.active {
+  background-color: #fa2020;
+}
+
+.svg-icon-right{
+  position: relative;
+  width: 20px;
+  top: -7px;
+  left: -8px;
+}
+
+.svg-icon-left{
+  position: relative;
+  width: 20px;
+  top: -7px;
+  left: -6px;
+}
+.carousel-container {
+  display: flex;
+  flex-direction: row; /* Lays out the carousels in a row */
+  justify-content: center; /* Centers the carousels horizontally */
+  
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .carousel-container {
+      flex-direction: column; /* Stacks the carousels vertically on mobile */
+      gap: 20px; /* Adds some space between the carousels */
+  }
+}
+
+.caja-texto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 5px;
+  width: 300px;
+  background-color: #f1f1f1;
+  margin-top: 2px;
+}
+
+
+/*Productos*/
+
+.collares{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.collares h2{
+  font-size: 2rem;
+  margin-bottom: 0px;
+}
+
+.collares__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* Removed fixed height to allow the container to grow with the content */
+}
+
+.collares__wrapper {
+  /* Adjust flex property to not grow and fit the content */
+  flex: 0 1 auto; /* Change from flex: 1 to flex: 0 1 auto; this makes the wrapper size based on its content */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* Add padding or margin if needed to space out the wrapper elements */
+}
+
+.collares__wrapper img {
+  /* Ensure width and height are equal for a perfect circle. Adjust the percentage as needed */
+  width: 20%; /* Set a fixed width */
+  aspect-ratio: 1 / 1; 
+  object-fit: cover;
+  border-radius: 50%; /* Adjust to 50% for a perfect circle */
+  margin: 10px;
+  transition: all 0.3s ease;
+}
+
+.collares__wrapper img:hover {
+  transform: scale(1.1);
+  border-radius: 0%;
+  width: 30%;
+  margin: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
