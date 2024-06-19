@@ -6,7 +6,8 @@ import Home from './components/pages/Home.js';
 import Services from './components/pages/Services.js';
 import Products from './components/pages/Products.js';
 import Footer from './components/Footer.js';
-import { SpeedInsight } from '@vercel/speed-insights/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Footer />  
     </Router>
     <SpeedInsights />
+    <Analytics />
     </>
       
    
