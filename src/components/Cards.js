@@ -7,7 +7,7 @@ import './Cards.css'
 function Cards() {
   return (
     <div className='Cards'>
-        <h1>Check out these EPIC Destinations!</h1>
+        
         <div className='cards__container'>
             <div className='cards__wrapper'>
                 <ul className='cards__items'>
@@ -43,8 +43,8 @@ function Cards() {
                     /> 
                     <CardItem
                     
-                    src='images/miyuki-1.jpeg'
-                    text='La elegancia de nuestras miyuki bordadas a mano. Exclusividad y diseños unicós'
+                    src='images/miyuki-1-recorte.jpeg'
+                    text='La elegancia de nuestras miyuki bordadas a mano. Exclusividad y diseños únicos'
                     label='Miyuki'
                     path='/products'
                     /> 
