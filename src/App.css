@@ -21,8 +21,8 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  color: #ffffff;
+  font-size: 80px;
   height: 300px;
 }
 
@@ -32,8 +32,8 @@
   background-position: left;
   background-size: cover;
   height: 200px;
-  color: #fff;
-  font-size: 100px;
+  color: #ffffff;
+  font-size: 80px;
   
 }
 
@@ -85,7 +85,7 @@
   height: 100%;
   object-fit: cover;
   border-radius: 8px;
-  border: #ff00008e solid 2px;
+  border: #0000008e solid 2px;
 }
 .slide_direction {
   display: flex;

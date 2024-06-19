@@ -10,7 +10,7 @@ function HeroSection() {
         <source src='/videos/video-2.mp4' type='video/mp4' />
       </video>
       <h1>de lo zano</h1>
-      <p>Hecho con amor</p>
+      <p>Accesorios con manos de arquitecta</p>
       <div className='hero-btns'>
         <Button
           className='btns'
